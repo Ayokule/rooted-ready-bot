@@ -5,8 +5,8 @@
 const TelegramBot = require('node-telegram-bot-api');
 const express     = require('express');
 
-const TOKEN   = process.env.BOT_TOKEN || '8264849027:AAGuKDz6pm1o9Hto4RlgKXIddXhnrEAnGbY';
-const MY_ID  = process.env.CHAT_ID   || '"id": 6099670980';
+const TOKEN   = process.env.BOT_TOKEN || '';
+const MY_ID  = process.env.CHAT_ID   || '';
 const TZ     = 'Africa/Lagos';
 
 const bot    = new TelegramBot(TOKEN, { polling: true });
